@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Redeemco.de API Sample App</string>
+
+    <string name="buton_apply_redeemcode">Use Redeemcode</string>
+
+    <string name="redeemcode_title">redeemco.de</string>
+
+    <string name="error_verifying_license">Error verifying license. Error code is %s</string>
+
+    <string name="status_unknown">Unknown</string>
+    <string name="status_unlocked">Full Version</string>
+    <string name="status_free">Free version</string>
+
+    <string name="enter_redeem_code_dialog_title">Redeemco.de</string>
+    <string name="enter_redeem_code_dialog_message">Enter your redeem code:</string>
+    <string name="enter_redeem_code_dialog_success">Redeem code successfully consumed. Enjoy the app!</string>
+</resources>
