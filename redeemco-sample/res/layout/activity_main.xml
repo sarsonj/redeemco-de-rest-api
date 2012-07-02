@@ -19,9 +19,17 @@
         <TextView android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:layout_gravity="top|center_horizontal"
-                  android:text="Status Unknown"
+                  android:text="@string/status_unknown"
                   android:gravity="center"
                   android:id="@+id/textViewStatus"
+                />
+
+        <ProgressBar
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dip"
+                android:id="@+id/pbLoading"
                 />
     </LinearLayout>
 
@@ -36,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
                 android:text="@string/buton_apply_redeemcode"
+                android:enabled="false"
                 />
     </FrameLayout>
 

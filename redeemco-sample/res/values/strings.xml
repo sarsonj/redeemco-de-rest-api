@@ -8,7 +8,7 @@
 
     <string name="error_verifying_license">Error verifying license. Error code is %s</string>
 
-    <string name="status_unknown">Unknown</string>
+    <string name="status_unknown">Verifying...</string>
     <string name="status_unlocked">Full Version</string>
     <string name="status_free">Free version</string>
 
